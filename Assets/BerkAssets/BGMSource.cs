@@ -11,6 +11,12 @@ public class BGMSource : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        if (GameObject.FindFirstObjectByType<BGMSource>().gameObject != this.gameObject) { 
+        
+            Destroy(this.gameObject);
+            return;
+        
+        }
         DontDestroyOnLoad(gameObject);
         AudioSource src = GetComponent<AudioSource>(); 
         src.clip = BackgroundMusicClip;

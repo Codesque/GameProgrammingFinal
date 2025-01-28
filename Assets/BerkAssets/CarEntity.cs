@@ -164,6 +164,13 @@ public class CarEntity : MonoBehaviour
 
     }
 
+    private void OnDestroy()
+    {
+        AudioListener carListener = Camera.main.transform.GetComponent<AudioListener>(); 
+        Debug.Log(carListener.gameObject.name);
+        carListener.enabled = true;
+
+    }
 
 
     // Update is called once per frame

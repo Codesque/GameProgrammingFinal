@@ -15,6 +15,31 @@ public class GamePlayUIController : MonoBehaviour
         pauseCanvas = transform.parent.GetChild(1).GetComponent<Canvas>();
     }
 
+
+
+    public IEnumerator GoMenuCoroutine() {
+
+        AsyncOperation op = UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(0);
+        while (!op.isDone) { 
+        
+            yield return null;
+        }
+    
+    
+    }
+
+    public void GoBackToMainMenu() { RoadGenerator.EnvironmentSpeed = 12f; CloseCanvas();StartCoroutine(GoMenuCoroutine()); }
+
+    public void QuitGameFromMenu() { Application.Quit(); }
+
+    public void CloseCanvas() { 
+    
+        pauseCanvas.enabled = false; 
+        Time.timeScale = 1f;
+    
+    }
+
+
     // Update is called once per frame
     void Update()
     {
