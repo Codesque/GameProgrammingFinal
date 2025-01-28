@@ -7,6 +7,8 @@ Oyun Programlama Final Ödevi projesidir. İstenilen özellikler ben(Adem) ve Mu
   </li>
 
   <li>Oyunumuzu https://adamengine.itch.io/btufinal üzerinden oynayabilirsiniz</li>
+
+  <li>Butonun animasyonunun gözükmesi için oynanış sahnesine geçerken 3 saniye gecikme eklendi.</li>
   
   <li>
 Asenkron yükleme için gereken sahne geçişi , oyunun içindeyken "ENTER" tuşuna basılarak gerçekleştirilebilir. 
