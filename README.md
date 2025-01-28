@@ -1,8 +1,13 @@
 # GameProgrammingFinal
 <ul>
+
+  
   <li>
 Oyun Programlama Final Ödevi projesidir. İstenilen özellikler ben(Adem) ve Mustafa tarafından paylaşılarak aşağıdaki tablo baz alınarak yapılmıştır.  
   </li>
+
+  <li>Oyunumuzu https://adamengine.itch.io/btufinal üzerinden oynayabilirsiniz</li>
+  
   <li>
 Asenkron yükleme için gereken sahne geçişi , oyunun içindeyken "ENTER" tuşuna basılarak gerçekleştirilebilir. 
   </li>
