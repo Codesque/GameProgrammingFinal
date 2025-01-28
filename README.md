@@ -44,7 +44,7 @@ Asenkron yükleme için gereken sahne geçişi , oyunun içindeyken "ENTER" tuş
 
   <tr>
     <td>Asenkronizasyon (10x)</td>
-    <td>bAnimasyon (30x)</td>
+    <td>Animasyon (30x)</td>
     
   </tr>
 
