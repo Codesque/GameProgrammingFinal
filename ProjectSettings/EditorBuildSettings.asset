@@ -5,6 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/BerkAssets/Scenes/AnaSema.unity
+    guid: dc453442d0c006c40a3e084cbf4bdf73
+  - enabled: 1
+    path: Assets/BerkAssets/Scenes/AnaSema 1.unity
+    guid: 8c5c5e45fe247344dbc4b4d99a4ae40e
   - enabled: 1
     path: Assets/BerkAssets/Scenes/GamePlay.unity
     guid: b3ddf1620240e3f43880ceb77fc08c81
