@@ -39,23 +39,23 @@ Asenkron yükleme için gereken sahne geçişi , oyunun içindeyken "ENTER" tuş
   </tr>
   <tr>
     <td>Duraklama Menüsü (20x)</td>
-    <td>Bos</td>
+    <td>Ana Menü (30x)</td>
   </tr>
 
   <tr>
     <td>Asenkronizasyon (10x)</td>
-    <td>blank</td>
+    <td>bAnimasyon (30x)</td>
     
   </tr>
 
   <tr>
     <td>Ses ve Müzik (30x)</td>
-    <td>Bos</td>
+    <td></td>
   </tr>
   <tr>
   
   <td align="center"> 60 X</td>
-  <td align="center"> ?? X</td>
+  <td align="center"> 60 X</td>
   </tr>
 
   
